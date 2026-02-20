@@ -4,7 +4,8 @@
     {
         public int Id { get; set; }
         public required string Title { get; set; }
-        public double Price { get; set; }
+        public int ReleaseYear { get; set; }
+        public decimal Price { get; set; }
         public int ArtistId { get; set; }
         public Artist? Artist { get; set; }
     }
